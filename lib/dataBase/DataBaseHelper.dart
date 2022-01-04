@@ -49,7 +49,7 @@ class DataBaseHelper {
   void insertDefaultData() async{
     Database db = await dataBaseHelperInstance.database;
     String query = """
-    INSERT INTO $TableName($columnNumSim, $columnPin) VALUES('+22394940220', '123456');
+    INSERT INTO $TableName($columnNumSim, $columnPin) VALUES('+22390212223', '123456');
     """;
 
     await db.rawInsert(query);
